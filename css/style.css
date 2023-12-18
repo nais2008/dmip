@@ -68,6 +68,7 @@ main{
 main a{
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 .main_img img{
     width: 400px;
@@ -116,6 +117,64 @@ main a{
 .main_slide div:nth-child(2){
     background-color: #353fd5;
 }
-.title2 svg{
+.title2{
+    width:300px;
+    background-color: #fff;
+    height:400px;
+    padding: 20px 30px;
+    box-shadow: 0 5px 10px #aaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title2_svg{
     fill:#353fd5;
+    width: 200px;
+}
+.title2 h2{
+    color:#b2854e;
+    font-weight: 400;
+    padding:20px 0;
+    text-align: center;
+}
+.title2 p{
+    text-align: center;
+}
+.title2::after{
+    content: 'Read more';
+    padding:20px 30px;
+    background-color: #b2854e;
+    color:#fff;
+    font-weight: 500;
+    font-size: 16px;
+    transform: translateY(20%);
+}
+.titles{
+    background-color: #ececec;
+    margin-top:  40px;
+    padding-top:20px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.titles .container{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+footer{
+    height:200px;
+    color:#fff;
+    background-color:#353fd5 ;
+    padding-top: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+footer .navigation_footer{
+    display: flex;
+    gap:46px;
+}
+footer .navigation_footer span:nth-child(1){
+    border-bottom: 2px solid #fff;
+    height:20px;
 }
